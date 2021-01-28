@@ -40,6 +40,31 @@
     margin-right: auto;
 }
 
+.chat-container{
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 32.5px;
+    border: 1px dashed gray;
+    padding: 1px;
+    box-sizing: inherit;
+}
+
+.active:hover{
+    background-color: gray;
+}
+
+#chat-log{
+    line-height: 1.35;
+    font-size: 14px;
+    text-align: left;
+    padding-right: 32.5px;
+    padding-left: 32.5px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
 .downcontent-container{
     display: block;
     box-sizing: inherit;
