@@ -1,0 +1,129 @@
+.container{
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    padding-top: 15px;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#C6C6C6;
+}
+
+.title{
+    line-height: 1.15;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 32px;
+}
+
+.content-container{
+    max-width: 650px;
+    background-color: #EFEFEF;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: inherit;
+    display: block;
+}
+
+.down-container{
+    background-color: #C6C6C6;
+    position: relative;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    max-width: 60.625em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downcontent-container{
+    display: block;
+    box-sizing: inherit;
+    max-width: 650px;
+    background-color: #EFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.nav-content{
+    line-height: 1.15;
+    font-size: 24px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    box-sizing: inherit;
+}
+
+.story-foot{
+    justify-content: center;
+    display: flex;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.nav-ls{
+    list-style-type: none;
+    font-size: 10px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+.nav-item{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.item-ref{
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.item-ref::after{
+    content: "|";
+    display: inline-block;
+    margin: 0 0.3em;
+    color: black;
+}
+
+.on-site-foot{
+    background-color: #535353;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.text-cont{
+    margin: 0;
+    padding: 0;
+    line-height: 1.35;
+    font-size: 14px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    box-sizing: inherit;
+}
+
+.img-container{
+    padding-top: 15px;
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #535353;
+    color: black;
+    font-family: "courier-std", courier, monospace;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
