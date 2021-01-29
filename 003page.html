@@ -7,27 +7,36 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="position: relative;">
+<body>
     <header></header>
     <div class="container">
         <div class="content-container">
-            <h1 class="title">Enter</h1>
+            <h1 class="title">Jadestuck</h1>
             <div class="img-container">
-                <img src="images/jadeAlejamiento.png" alt="">
+                <!--Aqui va las IMAGENES-->
+                <img src="images/Preset.jpg" alt="">
             </div>
         </div>
         <div class="down-container">
             <div class="downcontent-container">
-                <p class="text-cont">Pero antes de pasar al clasico "FELIZ CUMPLEAÑOS", ah porque se me olvido decirte que hoy es el cumpleaños
-                    de nuestrx protagonistx, haremos un resumen de su historia
-                    <br>
-                    <br>
-                    <span style="opacity: 0.2;">Como que la trama se parece a un webcomic medio famoso</span> 
-                </p>
+                <!--Aqui va todo el contenido NARRADOR/DIALOGO-->
+                <div class="chat-container">
+                    <button id="button-log" class="active" onclick="JavaScript:showLog()">Show Pesterlog</button>
+                    <p id="chat-log">
+                        <span style="color: rgb(26, 248, 126);">TK: hola :D</span>
+                        <br>
+                        <span style="color: rgb(26, 248, 126);">TK: me sorprende que el chat funcione :0</span>
+                        <br>
+                        <span style="color: rgb(26, 248, 126);">TK: ESTAS PREPARADX PARA ESTE SUPER RESUMEN TEMPORAL? >:D</span>
+                        <br>
+                        <span style="color: rgb(26, 248, 126);">TK: *insertar sonidos de viaje en el tiempo*</span>
+                    </p>
+                </div>
                 <div class="nav-content">
                     <div>
                         <span>></span>
-                        <a href="/003page.html">Reset</a>
+                        <!--Aqui va el link a la siguiente pagina-->
+                        <a href="/003page.html">==></a>
                         <br>
                     </div>
                 </div>
@@ -45,7 +54,9 @@
             </div>
         </div>
     </div>
-    <div class="on-site-foot"></div>
-    <div style="position: absolute; overflow: hidden; max-height: 100px; bottom:0;"><img src="images/Deux.png" alt=""></div>
+    <div class="on-site-foot">
+
+    </div>
+    <script src="/scripts/basic.js"></script>
 </body>
 </html>
