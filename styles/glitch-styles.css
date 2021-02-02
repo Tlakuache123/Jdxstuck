@@ -1,0 +1,19 @@
+.basic-glitch{
+    position: relative;
+}
+
+.basic-glitch::before{
+    position: absolute;
+    color: blue;
+    content: attr(title);
+    top: 0;
+    left: 0px;
+}
+
+.basic-glitch::after{
+    position: absolute;
+    color: crimson;
+    content: attr(title);
+    bottom: 0;
+    right: 0;
+}
