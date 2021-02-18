@@ -17,3 +17,25 @@
     bottom: 0;
     right: 0;
 }
+
+.rbw{
+    animation: rainbow 4s infinite;
+}
+
+@keyframes rainbow{
+    0%{
+        color:blue;
+    }
+    25%{
+        color:green;
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color:red;
+    }
+    100%{
+        color:purple;
+    }
+}

@@ -1,0 +1,65 @@
+@font-face{
+    font-family: Pixel;
+    src: url("/fonts/pixelFont.TTF");
+}
+
+.console{
+    background-color: rgb(1, 0, 20);
+    height: 450px;
+    border: 2.5px solid rgb(160, 158, 158);
+}
+
+.console-control{
+    height: 30px;
+    background-color: rgb(160, 158, 158);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basic-controls{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.control-button{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(128, 128, 128);
+    background-color: rgb(160, 158, 158);
+    height: 25px;
+    width: 25px;
+    border: none;
+}
+
+.control-button:hover{
+    color: rgb(70, 70, 70);
+}
+
+.nav-controls{
+    width: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-button{
+    font: bold;
+    background-color: rgb(126, 126, 126);
+    border: none;
+    width: 50px;
+    height: 25px;
+}
+
+.nav-button:hover{
+    background-color: rgb(133, 133, 133);
+}
+
+.console-cont{
+    padding: 10px;
+    color: white;
+    display: flex;
+    word-wrap: break-word;
+    line-height: 20px;
+}

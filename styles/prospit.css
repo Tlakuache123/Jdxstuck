@@ -1,0 +1,55 @@
+:root{
+    --backgroundColor: #745500;
+    --backColor: #ccc018;
+    --frontColor:  #ffd620;
+}
+
+
+@font-face{
+    font-family: Pixel;
+    src: url("/fonts/pixelFont.TTF");
+}
+
+body{
+    background-color: var(--backgroundColor);
+}
+
+hr{
+    border: 1px dashed white;
+}
+
+.title{
+    font-family: Pixel,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 44px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.text-cont{
+    color: white;
+    font-family: Pixel,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+.container{
+    background-color: var(--backColor);
+}
+
+.down-container{
+    background-color: var(--backColor);
+}
+
+.content-container{
+    background-color: var(--frontColor);
+}
+
+.downcontent-container{
+    background-color: var(--frontColor);
+}
+
+@keyframes rbw{
+    0%{
+        color: blue;
+    }
+}
